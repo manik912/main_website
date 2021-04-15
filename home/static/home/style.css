@@ -985,7 +985,8 @@ input:required {
     margin-bottom: 20px; }
   .main-footer-area .single-footer-widget p {
     color: #9293bc;
-    font-size: 14px; }
+    font-size: 14px;
+    text-align: justify; }
     .main-footer-area .single-footer-widget p i {
       margin-right: 5px; }
   .main-footer-area .single-footer-widget .footer-logo {
@@ -1153,6 +1154,7 @@ input:required {
       .about-us-countdown-area .about-content-text h3 {
         font-size: 22px; } }
   .about-us-countdown-area .about-content-text p {
+    text-align: justify;
     color: #ffffff; }
 
 /* :: About Single Page CSS */
