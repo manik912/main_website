@@ -10,7 +10,7 @@ def register(request):
         if form.is_valid():
             messages.add_message(request, messages.INFO, 'Thank You for registering!')
             form.save()
-            return redirect('home')
+            return redirect('register')
     else:
         form = RegisterForm()
 
@@ -18,5 +18,8 @@ def register(request):
         'form' : form,
     }
     return render(request, 'home/index.html',context)
+
+def gallery(request):
+	return render(request, 'home/gallery.html')
 
 
